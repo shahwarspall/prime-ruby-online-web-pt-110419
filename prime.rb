@@ -1,3 +1,3 @@
-def prime?(integer)
-  integers.any? do |
+def prime?(integers)
+  integers.any? {|integer| integer > 1}
 end
