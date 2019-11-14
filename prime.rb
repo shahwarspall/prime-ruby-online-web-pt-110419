@@ -1,3 +1,3 @@
 def prime?(integers)
-  integers.find {|integer| integer > 1}
+  integers.prime? {|integer| integer > 1}
 end
